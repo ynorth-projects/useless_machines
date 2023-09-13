@@ -16,9 +16,9 @@ These modules exist solely to replace modules that have been [accidentally remov
 If you are using a package that requires `useless_machines` (like [YMCA Website Services](https://github.com/YCloudYUSA/yusaopeny/blob/main/composer.json#L159)) but you still need one of these modules:
 
 - fork this repo
-- remove the line of any module you want to use from the `conflict` section in `composer.json`
-- remove the corresponding directory
-- swap out your fork by adding a new [repository](https://getcomposer.org/doc/04-schema.md#repositories) entry in your root `composer.json` and following these steps for [patching and forking](https://www.lullabot.com/articles/patch-less-composer-workflow-drupal-using-forks#:~:text=The%20Steps%20for%20Patching%20and%20Forking).
+  - remove the line of any module you want to use from the `conflict` section in `composer.json`
+  - remove the corresponding directory
+- swap out your fork by [using an inline alias](https://getcomposer.org/doc/articles/aliases.md#require-inline-alias) in **your project's** `composer.json`.
 
 ### I don't want any of these useless machines 
 
