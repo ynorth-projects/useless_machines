@@ -22,7 +22,7 @@ If you are using a package that requires `useless_machines` (like [YMCA Website 
 
 ### I don't want any of these useless machines 
 
-Fret not, we've got a branch for you. 
+Fret not, we've got [a branch for you](https://github.com/YCloudYUSA/useless_machines/tree/allow-contrib). 
 
 ```
 composer require ycloudyusa/useless_machines:"dev-allow-contrib as dev-main"
