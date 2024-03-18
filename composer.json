@@ -5,7 +5,6 @@
     "require": {
     },
     "conflict": {
-        "drupal/geysir": "*",
         "drupal/openy_inline_editing": "*",
         "drupal/quickedit": "*",
         "drupal/rdf": "*"
